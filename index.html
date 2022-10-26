@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign in</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.min.css">
+</head>
+<body>
+    <div class="modal">
+        <div class="modal_container">
+            <div class="modal_devider">
+                <div class="modal_devider_block">
+                    <div>
+                        <div class="modal_devider_title">У вас есть аккаунт?</div>
+                        <button class="modal_devider_btn">Войти</button>
+                    </div>
+                </div>
+
+                <div class="modal_devider_block">
+                    <div>
+                        <div class="modal_devider_title">У вас нет аккаунта?</div>
+                        <button class="modal_devider_btn">Зарегистрироваться</button>
+                    </div>
+                </div>
+            </div>
+            <div class="modal_block">
+                <div class="modal_block_container">
+
+                    <!-- Блок входа -->
+                    <div class="modal_block_in">
+                        <div class="modal_block_title">Вход</div>
+                        <div class="modal_block_inputs">
+                            <label id="login">
+                                <input type="text">
+                                <span>Логин</span>
+                            </label>
+
+                            <label id="password">
+                                <input type="password">
+                                <span>Пароль</span>
+                            </label>
+                        </div>
+                        <button class="modal_block_btn">Войти</button>
+                        <a href="#">Восстановить пароль</a>
+                    </div>
+
+                    <!-- Блок регистрации -->
+                    <div class="modal_block_up dn">
+                        <div class="modal_block_title">Регистрация</div>
+                        <div class="modal_block_inputs">
+                            <label id="login">
+                                <input type="text">
+                                <span>Логин</span>
+                            </label>
+
+                            <label id="email">
+                                <input type="text">
+                                <span>Email</span>
+                            </label>
+
+                            <label id="password">
+                                <input type="password">
+                                <span>Пароль</span>
+                            </label>
+
+                            <label id="repeat_password">
+                                <input type="text">
+                                <span>Повторите пароль</span>
+                            </label>
+                        </div>
+                        <button class="modal_block_btn reg">Зарегистрироваться</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
